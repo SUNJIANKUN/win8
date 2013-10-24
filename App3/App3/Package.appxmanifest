@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="49753eos.12261CC8333DE" Publisher="CN=9C9165E1-C302-4CAB-8807-A4F7FA945BD1" Version="1.0.0.6" />
+  <Properties>
+    <DisplayName>美味寿司</DisplayName>
+    <PublisherDisplayName>童心eos</PublisherDisplayName>
+    <Logo>Assets\logo.jpg</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="App3.App">
+      <VisualElements DisplayName="寿司做法" Logo="Assets\logo2.jpg" SmallLogo="Assets\logo3.jpg" Description="各种寿司的做法！" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\logo1.jpg" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
